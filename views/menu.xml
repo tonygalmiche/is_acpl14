@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- mail.template is.reclamation -->
+    <record id="is_mail_template_action" model="ir.actions.act_window">
+        <field name="name">Modèles de courriels</field>
+        <field name="res_model">mail.template</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('model_id.model','in',['account.invoice','purchase.order','sale.order'])]</field>
+    </record>
+
+    <menuitem 
+        id="is_mail_template_menu" 
+        sequence="900" 
+        name="Modèles de courriels"
+        parent="sale.menu_sale_config" 
+        action="is_mail_template_action" 
+    />
+
+</odoo>

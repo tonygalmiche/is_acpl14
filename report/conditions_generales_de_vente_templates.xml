@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+<template id="conditions_generales_de_vente">
+
+    <style>
+        .cgv-titre{
+            text-align: center;
+            font-size:10pt;
+            font-weight:bold;
+            padding:0;
+            margin:0;
+            margin-bottom:0.8em;
+        }
+        .cgv{
+            font-size:7.5pt;
+            text-align: justify;
+        }
+        .cgv h2{
+            font-size:9pt;
+            font-weight:bold;
+            padding:0;
+            margin-top:0.3em;
+            margin-bottom:0.2em;
+        }
+    </style>
+
+
+    <div style="page-break-before:always"/>
+
+
+<h1 class="cgv-titre">CONDITIONS GENERALES DE VENTE ET PRESTATIONS DE SERVICE</h1>
+
+
+<table>
+<tr>
+<td class="cgv">
+
+Le fait de passer commande implique l'adhésion entière et sans réserve de l'acheteur à ces conditions générales de vente à l'exclusion de tous autres documents (prospectus) émis par le vendeur qui n'ont qu'une valeur indicative. 
+Aucune condition particulière ne peut, sauf acceptation formelle et écrite du vendeur, prévaloir contre les conditions générales de vente. Toute condition contraire posée par l'acheteur sera donc, à défaut d'acceptation expresse, inopposable au vendeur, quel que soit le moment où elle aura pu être portée à sa connaissance.
+Le fait que le vendeur ne se prévale pas à un moment donné de l’une quelconque des présentes conditions générales de vente ne peut être interprété comme valant renonciation se prévaloir ultérieurement de l'une quelconque desdites conditions.
+
+<h2>ARTICLE 1 COMMANDES</h2>
+Les commandes ne sont définitives que lorsqu'elles ont été confirmées par écrit. La vente ne deviendra parfaite qu'après l'acceptation expresse de la commande par le vendeur. Toutes modifications que l'acheteur désirerait apporter à sa commande seront, à défaut d'acceptation expresse par le vendeur, inopposables à ce dernier. Le bénéfice de la commande est strictement personnel à l'acheteur et ne peut être cédé sans l'accord du vendeur.
+
+<h2>ARTICLE 2 ESTIMATIONS ET DEVIS</h2>
+ Les estimations réalisées par nos soins et figurant sur l'ordre de réparation signé par le client ne constitueront pas un engagement ferme, mais sont fournies à titre indicatif et sous réserve de modification éventuelle des travaux prévus par l'ordre de réparation. Notre intervention se limite exclusivement aux travaux mentionnés dans l'ordre de réparation tous autres travaux ne pouvant être effectués qu'après accord écrit entre les parties formalisées par la signature d'un nouvel ordre de réparation.
+ A la demande expresse du client, supposant un diagnostic approfondi du véhicule avec éventuellement démontage et remontage de certains de ses organes, un devis pourra être établi par le vendeur. Ce devis fourni à titre purement indicatif sera valide pour une durée d’un mois. 
+Les frais d'établissement du devis et notamment ceux de démontage et de remontage y afférent sont à la charge du client sauf si les prestations sont réalisées par l'établissement ayant réalisé le devis.
+
+<h2>ARTICLE 3 DELAIS D’EXECUTION ET DE LIVRAISON</h2>
+Les délais d'exécution et de livraison des pièces de rechange portée sur l'accusé de réception ne sont donnés qu'à titre indicatif. 
+La livraison est effectuée soit par la remise directe du produit a l'expéditeur, soit par simple avis de mise à disposition, soit par délivrance à un expéditeur ou un transporteur dans les locaux du vendeur. 
+Le vendeur se réserve un délai de deux mois pour livrer au-delà de la date sus- énoncée. Passé ce délai, l’acheteur aura la faculté de resilier la commande avec restitution de son acompte à l'exclusion de toute autre indemnité ou dommages interêts. 
+Tout report de délai est subordonné à l’accord préalable et express du vendeur. Ce délai pourra être prolongé en cas de modification de la commande en cours d’exécution ou en cours d'arrêt de la production en cas de force majeure, grevé inondation, incendie, faits de guerre, réquisition, émeute, accidents…
+ En tout état de cause, le non-respect des délais n’engage pas notre responsable et ne peut donner lieu à une quelconque indemnité d'immobilisation ou de retard.
+
+
+
+<h2>ARTICLE 4 ACCESSOIRES ET ESSENCE</h2>
+Nous ne sommes responsables que des accessoires et appareils fixés au châssis du véhicule et des objets confiés à notre magasin après inventaire, ainsi que de la quantité d'essence notée à l'entrée du véhicule de l'atelier. 
+
+<h2>ARTICLE 5 PRIX</h2>
+Les prix sont ceux en vigueur au moment de la passation de la commande s'entendent nets, départ emballage compris, sauf pour les emballages spéciaux taxes en sus.
+Nous invitons nos clients à prendre connaissance tarifs affiches dans notre établissement.
+
+
+</td>
+
+
+<td style="width:8mm"></td>
+
+<td class="cgv">
+
+
+<h2>ARTICLE 6 PAIEMENT</h2>
+Toutes les ventes, fournitures et réparations sont payables au comptant quel que soit le mode d'expédition ou de règlement.
+ Toute autre condition de règlement ne pourra être prise en compte que si elle a été acceptée par écrit par le vendeur.
+Dans le cas où des conditions particulières de règlement, dérogatoires au paiement correspondant ont été acceptées, il ne sera pratiqué aucun escompte du fait d'un règlement anticipé.
+Dans tous les cas le défaut de paiement à l'échéance entrainera l'exigibilité immédiate de toutes les sommes restantes dues quel que soit le mode de paiement prévu, majoré d'une pénalité de retard calculée sur les sommes exigibles égale à 3 fois le taux de l'intérêt légal en vigueur au jour de la date d'exigibilité des dites sommes ainsi qu'une indemnité forfaitaire de 40 € pour frais de recouvrement.
+ Par ailleurs, le défaut de paiement entrainera l'exercice de notre droit de rétention si se trouve dans nos ateliers.
+En cas de paiement différé ou à terme, constitue un paiement au sens du présent article, non pas la simple remise d'un effet de commerce ou d'un chèque impliquant une obligation de payer, mais leur règlement à l'échéance convenue.
+En cas d'envoi de la facture, celle-ci constitue la mise à disposition du véhicule réparé ou des marchandises. A défaut d’enlèvement du véhicule réparé dans un délai de 8 jours jours, le véhicule sera considéré comme étant en garage et nous nous réservons la possibilité de facturer une indemnité d'occupation de nos ateliers.
+
+<h2>ARTICLE 7 PIECES DETACHEES</h2>
+Les pièces usagées propriété du client. Elles lui sont remises ou présentées au moment de la restitution de son véhicule. Si elles ne sont pas reprises par le client au moment de la restitution du véhicule, nous pourrons en disposer librement. 
+Font exception au principe de la restitution les pièces changées dans le cadre de la garantie contractuelle et de l’échange standard. 
+
+<h2>ARTICLE 8 PARTICIPATION DU CLIENT AUX OPERATIONS DE DEPANNAGE ET DE REPARATIONS</h2>
+Nous n'acceptons aucune participation du client ou de son préposé à l'occasion des travaux de dépannage, soulevage, remorquage.
+
+<h2>ARTICLE 9 RECLAMATIONS</h2>
+En cas de contestation relative à la bonne exécution des travaux demandés, le client doit nous en avertir immédiatement par écrit et nous mettre en position de procéder à toutes constatations utiles. Aucune réclamation ne sera examinée après un délai de 2 mois à compter de la date de la facture de réparation. Nous déclinons toute responsabilité en cas de démontage de la pièce ou de l'organe incriminé en dehors de notre présence. En tout état de cause, le véhicule sera ramené à nos ateliers par les soins et aux frais du client et si notre responsabilité se trouvait engagée, le droit à réparation du client serait limité à une somme ne pouvant excéder le montant payé par le client au titre de prestations mentionnées au recto. En aucun cas, il ne peut être réclamé une indemnité d'immobilisation.
+
+<h2>ARTICLE 10 RESERVE DE PROPRIETE</h2>
+Les véhicules, pièces et fournitures sont vendus avec une clause subordonnant expressément le transfert de leur propriété au paiement intégral du prix en principal et accessoires. 
+La simple remise d'un titre créant une obligation à payer traite ou autre, ne constitue pas un paiement au sens de la présente clause, la créance originaire du vendeur sur l'acheteur subsistant avec toutes les garanties qui y sont attachées, y compris la réserve de propriété jusqu'à ce que ledit effet de commerce ait été effectivement payé. 
+Nous pourrons reprendre possession matériellement des véhicules pièces et fournitures livrés aux frais du client et à ses risques et périls En cas de revente des véhicules, pièces et fournitures, avant paiement intégral du prix et de ses accessoires, le client s'engage à première demande de notre part à céder tout ou partie des créances sur des sous acquéreurs à due concurrence de la valeur des marchandises soumises à la réserve de propriété.
+Il est expressément convenu que l'acheteur prendra des marchandises sous sa garde, et qu'il sera responsable des risques en cas de perte, détérioration ou destruction des la prise en possession charge d'assurance incombera à l'acheteur Toutes les marchandises expédiées voyagent aux frais et aux risques et périls du client.
+Toutes les marchandises expédiées voyagent aux frais et aux risques et périls du client.
+
+<h2>ARTICLE 11-MARCHES PRIVES ET PUBLICS</h2>
+Dans le cadre des marchés privés et publics que nous sommes amenés à traiter nous signerons avec chacun de nos cocontractants des conventions qui régiront nos rapports. Nous définirons les prestations de nos sous-traitants, leurs prix et les délais d'exécution.
+ Dans l'hypothèse où les sous-traitants n'exécuteraient pas leurs obligations à notre égard, nous leur appliquerons des pénalités de retard telles qu'elles sont prévues au marché principal nonobstant toute pénalité spécifique que nous pourrions convenir avec nos sous-traitants. 
+
+<h2>ARTICLE 12 JURIDICTION</h2>
+De convention expresse, en cas de contestation de quelque nature que ce soit, relative à l'exécution ou à la résiliation de la commande ou l'utilisation d'un véhicule vendu, et d'une façon plus générale pour tous les litiges qui pourraient survenir entre les parties à quelque moment ou pour quelque motif que ce soit le Tribunal de Commerce de CHALON-SUR-SAONE sera seul compétent pour connaitre du litige.
+Cette clause s’applique même en cas de référé, de demande incidente ou de pluralité de défendeurs, et quels que soient le mode ou les modalités de paiement.
+
+<h2>ARTICLE 13 INFORMATIQUES ET LIBERTES</h2>
+Les informations nominatives demandées au client sont indispensables à la réalisation des prestations et sont susceptibles d'être communiquées aux sociétés du groupe SOFIBEG ou à des tiers en relations commerciales avec elle. 
+Le client dispose d'un droit d'accès à ces informations et de rectification dans les conditions prévues par la Loi no 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés.
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+</template>
+
+
+</odoo>

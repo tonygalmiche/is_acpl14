@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="is_external_layout_standard" name="is_external_layout_standard" inherit_id="web.external_layout_standard">
+        <div  t-att-style="report_header_style" position="replace">
+            <div t-attf-class="header o_company_#{company.id}_layout" t-att-style="report_header_style">
+                <style>
+                    .emetteur{
+                        font-size:8pt;
+                    }
+                </style>
+                <div class="row">
+                    <div class="col-6 emetteur">
+
+                        <img t-if="company.logo" t-att-src="image_data_uri(company.logo)" alt="Logo" style="max-height: 45px;"/><br />
+                        <span t-field="o.company_id.name"/> - <span t-field="o.company_id.street"/><br />
+                        <span>Siège social et établissement : </span><br />
+                        <span t-field="o.company_id.zip"/> <span t-field="o.company_id.city"/> - <span t-field="o.company_id.country_id.name"/>
+                    </div>
+                    <div class="col-6 text-right emetteur">
+                        SAS au Capital de 24000€<br />
+                        <t t-if="o.company_id.siret">Siret : <span t-field="o.company_id.siret"/><br /></t>
+                        <t t-if="o.company_id.ape">APE : <span t-field="o.company_id.ape"/><br /></t>
+                        <t t-if="o.company_id.company_registry">RCS : <span t-field="o.company_id.company_registry"/><br /></t>
+                        <t t-if="o.company_id.vat">TVA : <span t-field="o.company_id.vat"/><br /></t>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  t-attf-class="footer o_standard_footer o_company_#{company.id}_layout" position="replace">
+
+
+
+
+            <div t-attf-class="footer o_standard_footer o_company_#{company.id}_layout">
+
+
+                <div class="text-center" style="border-top: 1px solid black;">
+                        <t t-if="company.phone">Téléphone : <span t-field="company.phone"/> - </t>
+                        <t t-if="company.email">Courriel :  <span t-field="company.email"/> - </t>
+                        <t>Page : <span class="page"/>/<span class="topage"/></t>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <div t-attf-class="article o_report_layout_standard o_company_#{company.id}_layout" position="replace">
+            <div t-attf-class="article o_report_layout_standard o_company_#{company.id}_layout"  t-att-data-oe-model="o and o._name" t-att-data-oe-id="o and o.id" t-att-data-oe-lang="o and o.env.context.get('lang')">
+                <!-- <div class="pt-5">
+                    <t t-call="web.address_layout"/>
+                </div> -->
+                <t t-raw="0"/>
+            </div>
+        </div>
+
+
+
+
+    </template>
+</odoo>
