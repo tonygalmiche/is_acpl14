@@ -12,6 +12,8 @@ class AccountMove(models.Model):
         ('controle-numerique' , 'Contrôle numérique'),
         ('divers', 'Divers'),
     ], "Type de facture", required=True, default='atelier')
+    is_plaque_immatriculation = fields.Char(string="Plaque d'immatriculation")
+    is_kilometrage = fields.Integer(string="Kilométrage")
 
 
 class AccountMoveLine(models.Model):

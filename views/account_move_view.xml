@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <record id="is_invoice_tree" model="ir.ui.view">
-        <field name="name">is_invoice_tree</field>
-        <field name="model">account.move</field>
-        <field name="inherit_id" ref="account.view_out_invoice_tree" />
-        <field name="arch" type="xml">
-            <xpath expr="//field[@name='name']" position="after" >
-                <field name="is_type_facture"/>
-            </xpath>
-            <field name="amount_total_signed" position="replace"> 
-                <field name="amount_untaxed"      sum="Total"/>
-                <field name="amount_total_signed" sum="Total" string="Montant TTC"/>
-            </field>
-        </field>
-    </record>
     <record id="is_invoice_form" model="ir.ui.view">
         <field name="name">is_invoice_form</field>
         <field name="model">account.move</field>
@@ -22,10 +8,28 @@
              <field name="invoice_date" position="after">
                 <field name="is_date_intervention"/>
                 <field name="is_type_facture"/>
+                <field name="is_plaque_immatriculation"/>
+                <field name="is_kilometrage"/>
             </field>
             <xpath expr="//notebook/page/field[@name='invoice_line_ids']/tree/field[@name='name']" position="after">
                 <field name="is_num_controle"/>
             </xpath>
+        </field>
+    </record>
+    <record id="is_invoice_tree" model="ir.ui.view">
+        <field name="name">is_invoice_tree</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_out_invoice_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after" >
+                <field name="is_type_facture"           optional="show"/>
+                <field name="is_plaque_immatriculation" optional="show"/>
+                <field name="is_kilometrage"            optional="show"/>
+            </xpath>
+            <field name="amount_total_signed" position="replace"> 
+                <field name="amount_untaxed"      sum="Total"                      optional="show"/>
+                <field name="amount_total_signed" sum="Total" string="Montant TTC" optional="show"/>
+            </field>
         </field>
     </record>
 </odoo>

@@ -244,10 +244,14 @@
                     </div>
                 </div>
             </div>
-
+            <p t-if="o.is_plaque_immatriculation">
+                <strong>Plaque d'immatriculation : </strong><span t-field="o.is_plaque_immatriculation"/>
+            </p>
+            <p t-if="o.is_kilometrage">
+                <strong>Kilométrage : </strong><span t-field="o.is_kilometrage"/>
+            </p>
             <p t-if="o.narration">
-                <strong>Commentaire:</strong>
-                <span t-field="o.narration"/>
+                <strong>Commentaire : </strong><span t-field="o.narration"/>
             </p>
             <div style="font-size:70%">
                 Escompte pour réglement anticipé : 0%<br />
