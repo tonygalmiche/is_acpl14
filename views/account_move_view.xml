@@ -32,4 +32,15 @@
             </field>
         </field>
     </record>
+    <record id="is_view_account_invoice_filter" model="ir.ui.view">
+        <field name="name">is_view_account_invoice_filter</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_account_invoice_filter" />
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="is_type_facture" />
+                <field name="is_plaque_immatriculation"/>
+            </field>
+        </field>
+    </record> 
 </odoo>
