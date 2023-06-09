@@ -253,11 +253,27 @@
             <p t-if="o.narration">
                 <strong>Commentaire : </strong><span t-field="o.narration"/>
             </p>
+
             <div style="font-size:70%">
                 Escompte pour réglement anticipé : 0%<br />
                 En cas de retard de paiement seront exigibles : une pénalité égale à 3 fois le taux d'intéret légal (décret 2009-138 du 9 février 2009),
                 et une indemnité forfaitaire pour frais de recouvrement : 40 Euros (article 441-6 du Code du Commerce).              
             </div>
+            <br />
+
+
+            <table style="width:60%">
+                <tr>
+                    <td>IBAN (International Bank Account Number)</td>
+                    <td>BIC (Bank Identifier Code)</td>
+                </tr>
+                <tr>
+                    <td>FR76 1009 6185 1200 0650 1330 229</td>
+                    <td>CMCIFRPP</td>
+                </tr>
+            </table>
+            <br />
+
 
 
             <t t-call="is_acpl14.conditions_generales_de_vente" />
