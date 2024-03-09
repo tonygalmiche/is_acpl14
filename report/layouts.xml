@@ -16,7 +16,7 @@
                         <span t-field="res_company.zip"/> <span t-field="res_company.city"/> - <span t-field="res_company.country_id.name"/>
                     </div>
                     <div class="col-6 text-right emetteur">
-                        SAS au Capital de 24000€<br />
+                        SARL au Capital de 24000€<br />
                         <t t-if="res_company.siret">Siret : <span t-field="res_company.siret"/><br /></t>
                         <t t-if="res_company.ape">APE : <span t-field="res_company.ape"/><br /></t>
                         <t t-if="res_company.company_registry">RCS : <span t-field="res_company.company_registry"/><br /></t>
